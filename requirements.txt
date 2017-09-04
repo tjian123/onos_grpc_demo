@@ -1,0 +1,6 @@
+## Python requirements for using the onos_grpc_demo application.
+##
+##    pip install --requirement=requirements.txt
+##
+PyYAML>=3.11
+grpcio>=1.6.0

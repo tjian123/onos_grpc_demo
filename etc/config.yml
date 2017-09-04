@@ -1,0 +1,9 @@
+# Runtime configuration for the onos_grpc_demo application.
+#
+# usage:
+#   for
+#     name: Jacky
+#   you can use
+#     config.name
+#   or
+#     config["name"]
