@@ -1,0 +1,4 @@
+
+python -m grpc_tools.protoc --proto_path=./src --python_out=. ./src/DeviceEnumsProto.proto ./src/DeviceProto.proto ./src/ConnectPointProto.proto ./src/PortEnumsProto.proto ./src/PortProto.proto ./src/PortStatisticsProto.proto
+
+python -m grpc_tools.protoc --proto_path=./src --python_out=. --grpc_python_out=. ./src/DeviceServiceNb.proto
