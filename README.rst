@@ -61,6 +61,7 @@ Note:
 
 1. If you need to generate source code, you can reference to the './src/onos_grpc_demo/proto/compile.txt'. For it just for
 test use, I skips makefile.
+
 2. Auto-generated codes don't hava '__init__.py', So i was confused of how to keep mutil level directories.
 
 Basic Setup
